@@ -1,30 +1,30 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 .banner{
-    background-image: url(./dist/assets/images/bannerimg.png);
+    background-image: url(../dist/assets/images/bannerimg.png);
     background-size: 100%;
     background-position: top;
 }
 
 .brownbg{
-    background-image: url(./dist/assets/images/brawon.jpg);
+    background-image: url(../dist/assets/images/brawon.jpg);
 }
 .greenarea{
-    background-image: url(./dist/assets/images/greenarea.png);
+    background-image: url(../dist/assets/images/greenarea.png);
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
    
 }
 .tropipart::before{
-    content: url(./dist/assets/images/divider.png);
+    content: url(../dist/assets/images/divider.png);
    margin: 10px 30px 10px 10px;
    height: 30px;
 }
 .greenframe{
-    background-image: url(./dist/assets/images/grrenframe.png);
+    background-image: url(../dist/assets/images/grrenframe.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
